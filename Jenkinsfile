@@ -4,7 +4,8 @@ pipeline {
             image "openjdk:11"
         }
     }  
-
+    stages {
+       
 
         stage("Run pattern code") {
             steps {
@@ -15,3 +16,4 @@ pipeline {
             }
         }
     }
+}
