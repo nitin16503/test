@@ -5,7 +5,14 @@ pipeline {
         }
     }  
     stages {
-       
+        stage("Build") {
+            steps {
+                // Compile and build your Java project
+                script {
+                    sh 'javac pattern.java'
+                }
+            }
+        }
 
         stage("Run pattern code") {
             steps {
