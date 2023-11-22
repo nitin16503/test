@@ -1,4 +1,7 @@
-                 n=5                                 
+public class pattern {
+
+	public static void main(String[] args) {          
+n=5                                 
 		int star=n+1;                                        
 		int space=1;
 		for(int i=1; i<=n;i++) {
@@ -22,3 +25,5 @@
 			}
 			System.out.println();
 		}
+	}
+}
