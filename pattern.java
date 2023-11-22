@@ -1,6 +1,4 @@
-public class pattern {
-
-	public static void main(String[] args) {          
+      
 int n=21;                                 
 		int star=n+1;                                        
 		int space=1;
@@ -25,5 +23,4 @@ int n=21;
 			}
 			System.out.println();
 		}
-	}
-}
+
